@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "2349066528353";
+  : "2348100151048";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -24,7 +24,7 @@ global.userImages =
 
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "!",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`©QUEEN_ANITA-V2`",
